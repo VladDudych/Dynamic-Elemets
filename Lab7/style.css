@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 120vh;
+    background-image: url(imgs/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; 
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 10%; 
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Карусель */
+.owl-carousel {
+    margin: 10; /* Знято маргін для каруселі */
+    height: 50vh; /* Висота 50% від висоти вікна браузера */
+    position: relative; /* Позиціонування */
+    overflow: hidden; /* Сховати вихід за межі */
+}
+
+/* Стилі для елементів каруселі */
+.owl-carousel .item {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    display: flex; /* Використовуємо flexbox для центрування зображень */
+    justify-content: center; /* Центруємо по горизонталі */
+    align-items: center; /* Центруємо по вертикалі */
+}
+
+/* Налаштування зображень у каруселі */
+.owl-carousel img {
+    max-width: 100%; /* Максимальна ширина 100% від контейнера */
+    max-height: 100%; /* Максимальна висота 100% від контейнера */
+    border-radius: 10px; /* Згладжені кути для зображень */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тінь для зображень */
+}
+
+#accordion {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#accordion h3 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+#accordion div {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
